@@ -180,6 +180,7 @@ var logoAnimation = (function() {
 logoAnimation.play();
 
 </script>
+";
 ?>
 
 <?php include("footer.php");?>
