@@ -1,6 +1,7 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
 
+<script>
 const config = {
   type: 'bar',
   data: data,
@@ -55,6 +56,8 @@ const actions = [
     }
   },
 ];
+  
+  </script>
 
 
 <?php include("footer.php");?>
