@@ -2,6 +2,14 @@
 <?php include("links.php");?>
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
+
+	<!-- Load plotly.js into the DOM -->
+	<script src='https://cdn.plot.ly/plotly-2.16.1.min.js'></script>
+
+
+<body>
+	<div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
+</body>
 <script>
 var trace1 = {
   x: [1, 2, 3, 4],
@@ -28,5 +36,5 @@ var data = [trace1, trace2, trace3];
 
 Plotly.newPlot('myDiv', data);
 </script>
-</body>
+
 </html>
