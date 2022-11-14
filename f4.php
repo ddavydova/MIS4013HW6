@@ -1,16 +1,10 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
-<title>AniJS Accordion</title>
+
 
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
 
 <style>
-	.accordion {
-  width: 500px;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: auto;
-}
 
 .accordion .item .heading {
   height: 50px;
