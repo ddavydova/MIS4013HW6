@@ -10,7 +10,7 @@
     <meta charset="utf-8" />
 
 
-
+<body style="center">
     <script src="sketch.js"></script>
  <script>
  let field;
@@ -40,4 +40,5 @@ function findRhymes() {
   }
 }
   </script>
+</body>
 </html>
