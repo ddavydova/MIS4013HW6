@@ -1,3 +1,39 @@
+<style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b834f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.wrp {
+  height: 100vh;
+  width: 100%;
+
+  svg {
+    height: 100%;
+    width: 100%;
+
+    * {
+      transform-origin: center;
+      transform-box: fill-box;
+    }
+
+    .swet,
+    .debre,
+    .flash,
+    #paper1 {
+      opacity: 0;
+    }
+  }
+}
+</style>
+
 <!-- svg from shutterstock -->
   <div class="wrp">
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
