@@ -3,10 +3,24 @@
    
 
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-<img class="nature" src="img_snowtops.jpg" width="100%">
-<img class="nature" src="img_mountains.jpg" width="100%">
-<img class="nature" src="img_nature.jpg" width="100%">
+<p>
+<button onclick="w3.hide('#London')">Hide London</button>
+<button onclick="w3.show('#London')">Show London</button>
+</p>
 
-<script>
-w3.slideshow(".nature", 1500);
-</script>
+<div id="London" class="w3-container w3-red">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="w3-container w3-green">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="w3-container w3-blue">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+</body>
+</html>
