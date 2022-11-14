@@ -5,6 +5,12 @@
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
 
 <style>
+.accordion {
+  border-radius: 5px;
+  overflow: hidden;
+  margin: auto;
+}
+
 
 .accordion .item .heading {
   height: 50px;
@@ -85,12 +91,6 @@ body a{
    width: 40%;
 }
 
-.center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position:relative;
-}
 
 
 .sentences{
