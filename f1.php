@@ -25,7 +25,7 @@ var granimInstance = new Granim({
   </script>
 
 <canvas id="canvas-complex"></canvas>
-<sctyle>
+<style>
 #canvas-basic {
     position: absolute;
     display: block;
@@ -36,6 +36,6 @@ var granimInstance = new Granim({
     bottom: 0;
     left: 0;
 }
-</sctyle>
+</style>
      
 <?php include("footer.php");?>
