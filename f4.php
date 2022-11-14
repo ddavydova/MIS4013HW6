@@ -275,45 +275,6 @@ color: #008080;
   </div>
   <!-- End example -->
 
- <div class="sentences center" data-anijs="if:mouseover, do: bounce animated, to: .learn">
-   <p>
-     *
-    <span class="anijs-if anijs-reserved-word">If</span>
-    <span>click,</span>
-    <span class="anijs-on anijs-reserved-word">On</span>
-    <span>.heading,</span>
-    <span class="anijs-do anijs-reserved-word">Do</span>
-    <span class="do-value">$removeClass open</span>
-    <span class="anijs-to anijs-reserved-word">To</span>
-    <span class="to-value">.open,</span>
-     <br><br>
-     *
-    <span class="anijs-if anijs-reserved-word">If</span>
-    <span>click,</span>
-    <span class="anijs-on anijs-reserved-word">On</span>
-    <span>.heading,</span>
-    <span class="anijs-do anijs-reserved-word">Do</span>
-    <span class="do-value">$toggleClass open</span>
-    <span class="anijs-to anijs-reserved-word">To</span>
-    <span class="to-value">$parent target</span>
-   </p>
- 
- </div> 
-  
- 
-  <div class="sticky learn">
-    <h4>
-      <i class="fa fa-mortar-board"></i>
-      Learn AniJS
-    </h4>
-    <ul>
-      <li><a href="https://github.com/anijs/anijs/wiki/Sentence-Definitions#if" target="_blanck">click</a></li>
-      <li><a href="https://github.com/anijs/anijs/wiki/Refer-to-the-current-element" target="_blanck">target</a></li>
-      <li><a href="https://github.com/anijs/anijs/wiki/Selecting-html-elements#parent" target="_blanck">$parent</a></li>
-      <li><a href="https://github.com/anijs/anijs/wiki/Playing-with-CSS-classes" target="_blanck">$removeClass</a></li>
-      <li><a href="https://github.com/anijs/anijs/wiki/Playing-with-CSS-classes" target="_blanck">$toggleClass</a></li>
-    </ul>  
-  </div>
   
 
 <script src="https://anijs.github.io/lib/anijs/anijs.js"></script>
