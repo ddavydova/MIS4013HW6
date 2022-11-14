@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
+<main>
 
     <script src="sketch.js"></script>
  <script>
@@ -39,6 +40,6 @@ function findRhymes() {
   }
 }
   </script>
-
+</main>
 
 <?php include("footer.php");?>
