@@ -1,14 +1,6 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Choreographer-JS | Example One</title>
-  </head>
-
-  <body>
-    <style>
+   <style>
       p {
         position: fixed;
         top: 100px;
@@ -24,37 +16,32 @@
 
       #box {
         margin: 0 0;
-        width: 100%;
-        height: 500vh;
-        background: black;
+        width: 100vw;
+        height: 100vh;
+        background-color: black;
         opacity: 0.2;
+
+        transition: background-color 0.4s ease-in-out;
       }
     </style>
 
-    <p>Animating based on scroll location.</p>
+    <p>Multiple animations based on mouse movement.</p>
     <div id="box"></div>
 
     <script src="../dist/choreographer.min.js"></script>
     <script>
       var choreographer = new Choreographer({
         animations: [
-          {
-            range: [-1, window.innerHeight * 4],
-            selector: '#box',
-            type: 'scale',
-            style: 'opacity',
-            from: 0.2,
-            to: 1
-          }
+          { range: [-1, window.innerWidth], selector: '#box', type: 'scale', style: 'height', from: 100, to: 50, unit: 'vh' },
+          { range: [-1, window.innerWidth / 2], selector: '#box', type: 'scale', style: 'opacity', from: 0.2, to: 1 },
+          { range: [window.innerWidth / 2, window.innerWidth], selector: '#box', type: 'change', style: 'backgroundColor', to: '#00c9ff' },
         ]
       })
 
-      window.addEventListener('scroll', function() {
-        choreographer.runAnimationsAt(window.pageYOffset)
+      window.addEventListener('mousemove', function(e) {
+        choreographer.runAnimationsAt(e.clientX)
       })
     </script>
-  </body>
-</html>
 
 
 
