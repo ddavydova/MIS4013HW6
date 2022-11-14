@@ -1,6 +1,7 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
    
+<script>
 {% import 'components/Plate/Plate.html' as Plate %}
 
 {% macro render(id) %}
@@ -12,7 +13,7 @@
     </article>
   </section>
 {% endmacro %}
-
+</script>
 
 <script>
    // eslint-disable-next-line import/no-unresolved
