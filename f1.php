@@ -2,7 +2,7 @@
 <?php include("links.php");?>
 
 <script>
-<style>
+
 var animation = anime({
   targets: '.remove-demo .el',
   translateX: 270,
@@ -10,9 +10,9 @@ var animation = anime({
   loop: true,
   easing: 'easeInOutQuad'
 });
-</style>
 
-<script>
+
+
 
 document.querySelector('.remove-el-button').addEventListener('click', function() {
   animation.remove('.remove-demo .line:nth-child(2) .el');
