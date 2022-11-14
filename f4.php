@@ -1,7 +1,7 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
 
-
+<p> Expand below!</p>
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
 
 <style>
