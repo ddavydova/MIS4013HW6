@@ -27,7 +27,7 @@
 
     <p>Multiple animations based on mouse movement.</p>
     <div id="box"></div>
-
+$ npm install --save choreographer-js 
     <script src="../dist/choreographer.min.js"></script>
     <script>
       var choreographer = new Choreographer({
