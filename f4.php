@@ -99,16 +99,6 @@ body a{
 }
 
 
-footer {
-  color: rgba(236, 222, 209, 1);
-  text-align: center;
-  background: #eee;
-  position: fixed;
-  width: 100%;
-  bottom: 0px;
-  padding: 10px 0px;
-}
-
 .sentences{
   color: #7f8c8d;
   font-size: 0.8em;
@@ -310,27 +300,6 @@ color: #008080;
  
  </div> 
   
-  
-  
-<footer>
-  <div class="pull-left margin-left">
-    <a class="pure-button primary" href="https://codepen.io/darielnoel/pen/mALtz?editors=110" target="_blank">
-       <i class="fa fa-edit"></i> Edit
-    </a>
-    <a class="pure-button primary" href="https://codepen.io/darielnoel/share/zip/mALtz/">
-       <i class="fa fa-download"></i> Download
-    </a>   
-  </div>
-  <span class="discover" data-anijs="if: mouseover,on: .tab-bar, do: bounceIn animated, after: $holdAnimClass" >
-    Made using            <img src="https://anijs.github.io/assets/img/favicon.png" alt="" />
-    <a href="https://anijs.github.io/" target="_blanck">AniJS</a>
-  </span>
-  <div class="pull-right margin-right">
-   <a class="pure-button primary" href="https://codepen.io/collection/DFmkq" target="_blanck">
-   <i class="fa fa-external-link"></i> More!!!
-    </a> 
-   </div>
- </footer>
  
   <div class="sticky learn">
     <h4>
