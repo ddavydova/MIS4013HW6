@@ -2,21 +2,19 @@
 <?php include("links.php");?>
 
 <script>
+function randomValues() {
+  anime({
+    targets: '.random-demo .el',
+    translateX: function() {
+      return anime.random(0, 270);
+    },
+    easing: 'easeInOutQuad',
+    duration: 750,
+    complete: randomValues
+  });
+}
 
-var animation = anime({
-  targets: '.remove-demo .el',
-  translateX: 270,
-  direction: 'alternate',
-  loop: true,
-  easing: 'easeInOutQuad'
-});
-
-
-
-
-document.querySelector('.remove-el-button').addEventListener('click', function() {
-  animation.remove('.remove-demo .line:nth-child(2) .el');
-});
+randomValues();
 </script>
 
 <?php include("footer.php");?>
