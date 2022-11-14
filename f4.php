@@ -1,7 +1,6 @@
 <?php include("header.php");?>
 <?php include("links.php");?>
 
-<p class="center"> Expand below!</p>
     <link rel="stylesheet" href="https://anijs.github.io/lib/anicollection/anicollection.css" />
 
 <style>
@@ -10,11 +9,6 @@
   overflow: hidden;
   margin: auto;
 }
-
-	.center
-	{
-		position:center;
-	}
 
 .accordion .item .heading {
   height: 50px;
@@ -238,6 +232,7 @@ color: #008080;
   
   <!-- The example -->
   <div class="container center">
+	  <p> Expand below!</p>
  <div class="accordion" 
      data-anijs="if: click, on: .heading, do: $removeClass open, to: .open;
                  if: click, on: .heading, do: $toggleClass open, to: $parent target;">
